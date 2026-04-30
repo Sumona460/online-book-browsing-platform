@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Marquee from "react-fast-marquee";
+import Footer from "./components/footer";
 
 
 const geistSans = Geist({
@@ -25,9 +27,12 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+         <Marquee className="bg-pink-900 text-white">Browse thousands of Books anytime, anywhere  | Read, explore, and get lost in stories  |  Find books that inspire, educate, and entertain.</Marquee>
         <Navbar></Navbar>
-       
-        {children}</body>
+      
+        {children}
+        <Footer></Footer>
+        </body>
     </html>
   );
 }

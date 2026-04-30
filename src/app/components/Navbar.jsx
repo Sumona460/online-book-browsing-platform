@@ -1,4 +1,6 @@
 import Link from "next/link";
+import NavLinks from "./NavLinks";
+
 
 
 const Navbar = () => {
@@ -7,7 +9,10 @@ const Navbar = () => {
     return (
 
 
-        <div className="navbar bg-base-100 shadow-sm">
+       <div className=" container mx-auto  w-full">
+
+         <div className=" navbar">
+           
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -16,24 +21,25 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><Link href="/">Home</Link></li>;
-                        <li><Link href="#">All Books</Link></li>;
-                        <li><Link href="# ">Home</Link></li>;
+                        <li><NavLinks href="/">Home</NavLinks></li>
+                        <li><NavLinks href="/allBooks">All Books</NavLinks></li>
+                        <li><NavLinks href="/profile ">Profile</NavLinks></li>
                     </ul>
                 </div>
                 <div className='text-2xl font-bold '>Ever<span className='text-3xl text-pink-900 font-light'>Books</span></div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="#">All Books</Link></li>
-                    <li><Link href="# ">Profile</Link></li>
+                    <li><NavLinks href="/">Home</NavLinks></li>
+                    <li><NavLinks href="/allBooks">All Books</NavLinks></li>
+                    <li><NavLinks href="/profile">Profile</NavLinks></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Login</a>
+                <a className="btn bg-pink-900 text-white">Login</a>
             </div>
         </div>
+       </div>
     );
 };
 
