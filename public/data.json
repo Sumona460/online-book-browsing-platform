@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Silent Forest",
+    "author": "Ava Rahman",
+    "description": "A mysterious tale of a forest where no sound exists and secrets hide in silence.",
+    "category": "Story",
+    "available_quantity": 12,
+    "image_url": "https://i.ibb.co/8nV22pHh/71h-Dfun-Pc-FL-UF1000-1000-QL80.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Next.js",
+    "author": "John Carter",
+    "description": "A complete guide to building modern web applications using Next.js.",
+    "category": "Tech",
+    "available_quantity": 8,
+    "image_url":"https://i.ibb.co/WpN911Xm/shopping-2.webp"
+  },
+  {
+    "id": 3,
+    "title": "Quantum Wonders",
+    "author": "Dr. Lisa Wong",
+    "description": "An introduction to the strange and fascinating world of quantum physics.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Lost Kingdom",
+    "author": "Rafiq Hasan",
+    "description": "An epic journey of a hero searching for a forgotten civilization.",
+    "category": "Story",
+    "available_quantity": 10,
+    "image_url":  "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg"
+  },
+  {
+    "id": 5,
+    "title": "JavaScript Deep Dive",
+    "author": "Emily Stone",
+    "description": "Advanced concepts and techniques for mastering JavaScript.",
+    "category": "Tech",
+    "available_quantity": 15,
+    "image_url":  "https://i.ibb.co/5WrfvfPw/shopping.webp"
+  },
+  {
+    "id": 6,
+    "title": "Space Exploration 101",
+    "author": "Neil Kapoor",
+    "description": "Discover the history and future of human space exploration.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url":  "https://i.ibb.co/mVm4pfTj/shopping-1.webp"
+  },
+  {
+    "id": 7,
+    "title": "Echoes of the Past",
+    "author": "Nusrat Jahan",
+    "description": "A touching story about memories, love, and forgotten promises.",
+    "category": "Story",
+    "available_quantity": 9,
+    "image_url":  "https://i.ibb.co/XZDrhYYQ/download-1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "React for Professionals",
+    "author": "David Kim",
+    "description": "Build scalable and efficient UI with React and best practices.",
+    "category": "Tech",
+    "available_quantity": 11,
+    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Human Brain",
+    "author": "Dr. Sarah Lee",
+    "description": "A deep dive into how the human brain functions and evolves.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url":  "https://i.ibb.co/DgSZSq1r/shopping-4.webp"
+  },
+  {
+    "id": 10,
+    "title": "Midnight Shadows",
+    "author": "Arman Hossain",
+    "description": "A thrilling mystery that unfolds under the cover of darkness.",
+    "category": "Story",
+    "available_quantity": 13,
+    "image_url":  "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg"
+  },
+  {
+    "id": 11,
+    "title": "AI Revolution",
+    "author": "Sophia Turner",
+    "description": "Understanding artificial intelligence and its impact on the world.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url":  "https://i.ibb.co/mrStp1sV/download.png"
+  },
+  {
+    "id": 12,
+    "title": "Climate Change Explained",
+    "author": "Michael Green",
+    "description": "A clear explanation of climate change and its global effects.",
+    "category": "Science",
+    "available_quantity": 14,
+    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+  }
+]
