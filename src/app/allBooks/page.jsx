@@ -106,14 +106,14 @@ const AllBooksPage = () => {
             <h2 className="text-xl font-bold mb-3"> Categories</h2>
 
             <li onClick={() => setSelectedCategory("All")}>
-              <a className={selectedCategory === "All" ? "active bg-pink-300" : ""}>
+              <a className={selectedCategory === "All" ? "active bg-gray-200 " : ""}>
                 All
               </a>
             </li>
 
             {categories.map((cat, i) => (
               <li key={i} onClick={() => setSelectedCategory(cat)}>
-                <a className={selectedCategory === cat ? "active bg-pink-300" : ""}>
+                <a className={selectedCategory === cat ? "active bg-gray-200" : ""}>
                   {cat}
                 </a>
               </li>

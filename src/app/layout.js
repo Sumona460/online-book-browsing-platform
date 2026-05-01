@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Marquee from "react-fast-marquee";
 import Footer from "./components/footer";
-import HomeCard from "./home/page";
+
 
 
 const geistSans = Geist({
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
       
         {children}
-         <HomeCard></HomeCard>
+         
         <Footer></Footer>
         </body>
     </html>
