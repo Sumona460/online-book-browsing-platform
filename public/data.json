@@ -6,7 +6,10 @@
     "description": "A mysterious tale of a forest where no sound exists and secrets hide in silence.",
     "category": "Story",
     "available_quantity": 12,
-    "image_url": "https://i.ibb.co/8nV22pHh/71h-Dfun-Pc-FL-UF1000-1000-QL80.jpg"
+    "image_url": "https://i.ibb.co/8nV22pHh/71h-Dfun-Pc-FL-UF1000-1000-QL80.jpg",
+    "price": 12.99,
+    "rating": 4.5,
+    "pages": 320
   },
   {
     "id": 2,
@@ -15,7 +18,10 @@
     "description": "A complete guide to building modern web applications using Next.js.",
     "category": "Tech",
     "available_quantity": 8,
-    "image_url":"https://i.ibb.co/WpN911Xm/shopping-2.webp"
+    "image_url": "https://i.ibb.co/WpN911Xm/shopping-2.webp",
+    "price": 18.5,
+    "rating": 4.8,
+    "pages": 410
   },
   {
     "id": 3,
@@ -24,7 +30,10 @@
     "description": "An introduction to the strange and fascinating world of quantum physics.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+    "image_url": "https://i.ibb.co/sdyCpLLm/download.jpg",
+    "price": 15.0,
+    "rating": 4.6,
+    "pages": 280
   },
   {
     "id": 4,
@@ -33,7 +42,10 @@
     "description": "An epic journey of a hero searching for a forgotten civilization.",
     "category": "Story",
     "available_quantity": 10,
-    "image_url":  "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg"
+    "image_url": "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg",
+    "price": 11.75,
+    "rating": 4.3,
+    "pages": 350
   },
   {
     "id": 5,
@@ -42,7 +54,10 @@
     "description": "Advanced concepts and techniques for mastering JavaScript.",
     "category": "Tech",
     "available_quantity": 15,
-    "image_url":  "https://i.ibb.co/5WrfvfPw/shopping.webp"
+    "image_url": "https://i.ibb.co/5WrfvfPw/shopping.webp",
+    "price": 20.0,
+    "rating": 4.9,
+    "pages": 500
   },
   {
     "id": 6,
@@ -51,7 +66,10 @@
     "description": "Discover the history and future of human space exploration.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url":  "https://i.ibb.co/mVm4pfTj/shopping-1.webp"
+    "image_url": "https://i.ibb.co/mVm4pfTj/shopping-1.webp",
+    "price": 13.5,
+    "rating": 4.4,
+    "pages": 300
   },
   {
     "id": 7,
@@ -60,7 +78,10 @@
     "description": "A touching story about memories, love, and forgotten promises.",
     "category": "Story",
     "available_quantity": 9,
-    "image_url":  "https://i.ibb.co/XZDrhYYQ/download-1.jpg"
+    "image_url": "https://i.ibb.co/XZDrhYYQ/download-1.jpg",
+    "price": 10.99,
+    "rating": 4.2,
+    "pages": 260
   },
   {
     "id": 8,
@@ -69,7 +90,10 @@
     "description": "Build scalable and efficient UI with React and best practices.",
     "category": "Tech",
     "available_quantity": 11,
-    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+    "image_url": "https://i.ibb.co/sdyCpLLm/download.jpg",
+    "price": 17.25,
+    "rating": 4.7,
+    "pages": 390
   },
   {
     "id": 9,
@@ -78,7 +102,10 @@
     "description": "A deep dive into how the human brain functions and evolves.",
     "category": "Science",
     "available_quantity": 6,
-    "image_url":  "https://i.ibb.co/DgSZSq1r/shopping-4.webp"
+    "image_url": "https://i.ibb.co/DgSZSq1r/shopping-4.webp",
+    "price": 14.75,
+    "rating": 4.6,
+    "pages": 330
   },
   {
     "id": 10,
@@ -87,7 +114,10 @@
     "description": "A thrilling mystery that unfolds under the cover of darkness.",
     "category": "Story",
     "available_quantity": 13,
-    "image_url":  "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg"
+    "image_url": "https://i.ibb.co/RTGTpnS1/pexels-elina-araja-1743227-3309963.jpg",
+    "price": 12.25,
+    "rating": 4.3,
+    "pages": 310
   },
   {
     "id": 11,
@@ -96,7 +126,10 @@
     "description": "Understanding artificial intelligence and its impact on the world.",
     "category": "Tech",
     "available_quantity": 4,
-    "image_url":  "https://i.ibb.co/mrStp1sV/download.png"
+    "image_url": "https://i.ibb.co/mrStp1sV/download.png",
+    "price": 22.0,
+    "rating": 4.9,
+    "pages": 450
   },
   {
     "id": 12,
@@ -105,6 +138,9 @@
     "description": "A clear explanation of climate change and its global effects.",
     "category": "Science",
     "available_quantity": 14,
-    "image_url":  "https://i.ibb.co/sdyCpLLm/download.jpg"
+    "image_url": "https://i.ibb.co/sdyCpLLm/download.jpg",
+    "price": 13.99,
+    "rating": 4.5,
+    "pages": 340
   }
 ]

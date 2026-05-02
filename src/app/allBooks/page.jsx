@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const AllBooksPage = () => {
@@ -88,9 +89,9 @@ const AllBooksPage = () => {
                   </div>
 
                   <div className="card-actions justify-end mt-3">
-                    <button className="btn w-full bg-gradient-to-r from-pink-900 to-red-500  text-white">
+                    <Link href={`/allBooks/${book.id}`}><button className="btn w-full bg-gradient-to-r from-pink-900 to-red-500  text-white">
                       Details
-                    </button>
+                    </button></Link>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import NavLinks from "./NavLinks";
-
+import ButtonToggle from './ButtonToggle'
 
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-pink-900 text-white">Login</a>
+                <ButtonToggle></ButtonToggle>
             </div>
         </div>
        </div>
