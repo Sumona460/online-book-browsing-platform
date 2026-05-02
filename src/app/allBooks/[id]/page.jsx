@@ -1,4 +1,4 @@
-import { Star, StarIcon } from "lucide-react";
+import { StarIcon } from "lucide-react";
 import Image from "next/image";
 
 
