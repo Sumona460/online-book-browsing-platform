@@ -24,6 +24,7 @@ const LoginPage = () => {
         </h2>
 
         <form onSubmit={handleSubmit}>
+          
           <input
             type="email"
             placeholder="Email"
