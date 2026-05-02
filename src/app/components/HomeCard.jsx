@@ -34,7 +34,7 @@ const HomeCard = () => {
 
         </div>
 
-        {/* CARD 2 */}
+        {/* CARD .....2*/}
         <div className="card card-side bg-base-100 shadow-lg w-full">
 
           <figure className="">
