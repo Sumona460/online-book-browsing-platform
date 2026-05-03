@@ -22,7 +22,7 @@ const LoginPage = () => {
       newErrors.email = "Write a valid email";
     }
 
-    // Password validation
+    // Password validation ..
     if (password.length < 8) {
       newErrors.password = "Password at least 8 characters";
     } else if (!/[A-Z]/.test(password)) {
