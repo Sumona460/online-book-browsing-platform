@@ -3,18 +3,21 @@
 import { useRouter } from "next/navigation";
 import GoggleLogin from "../components/GoggleLogin";
 import { useState } from "react";
+import { authClient } from "@/lib/auth-client";
 
 const LoginPage = () => {
   const router = useRouter();
 
   const [errors, setErrors] = useState({});
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
 
     const email = e.target.email.value;
     const password = e.target.password.value;
+    const image = e.target.image.value;
 
+    
     let newErrors = {};
 
     // Email validation

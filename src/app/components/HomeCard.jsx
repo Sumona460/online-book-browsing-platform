@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+
 const HomeCard = () => {
   const [openModal, setOpenModal] = useState(false);
 
@@ -97,6 +98,8 @@ const HomeCard = () => {
           </div>
         </div>
       )}
+
+     
     </div>
   );
 };

@@ -3,7 +3,10 @@ import { mongodbAdapter } from "better-auth/adapters/mongodb";
 import clientPromise from "./mongo";
 
 export const auth = betterAuth({
-  database: mongodbAdapter(clientPromise),
+  database: mongodbAdapter(async () => {
+    const client = await clientPromise;
+    return client.db("online-book-browsing-platform");
+  }),
 
   emailAndPassword: {
     enabled: true,

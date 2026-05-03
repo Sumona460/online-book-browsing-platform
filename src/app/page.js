@@ -1,6 +1,9 @@
 import Image from "next/image";
 import image from '@/assets/banner-2.png'
 import HomeCard from "@/app/components/HomeCard";
+import ReviewSection from "./components/Review";
+import Rating from "./components/Ratings";
+import NavLinks from "./components/NavLinks";
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
         
         <p>“A book is a dream you hold in your hands.”
           Discover stories that stay with you forever.</p>
-        <button className="btn bg-gradient-to-r from-pink-900 to-red-500  text-white ">Browse Now</button>
+        <NavLinks href='/login'><button  className="btn bg-gradient-to-r from-pink-900 to-red-500  text-white transition duration-300 hover:bg-pink-700 hover:scale-110  ">Browse Now</button></NavLinks>
 
       </div>
 
@@ -26,7 +29,9 @@ export default function Home() {
 
       
     </div>
+    <Rating></Rating>
     <HomeCard/>
+    <ReviewSection/>
     </section>
    
    
