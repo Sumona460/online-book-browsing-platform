@@ -119,7 +119,7 @@ const LoginPage = () => {
           </div>
         </form>
 
-        {/* Register */}
+        {/* Register.......*/}
         <div className="text-center mt-4 text-sm">
           <p>
             Don't have an account?{" "}
