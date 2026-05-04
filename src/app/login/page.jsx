@@ -131,7 +131,7 @@ const LoginPage = () => {
             </span>
           </p>
         </div>
-
+    
         <GoggleLogin />
       </div>
     </div>
