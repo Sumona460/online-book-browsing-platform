@@ -8,7 +8,7 @@ import NavLinks from "./components/NavLinks";
 export default function Home() {
   return (
     <section>
-      <div className="lg:grid lg:grid-cols-2 text-center lg:text-left container mx-auto min-h-screen bg-gray-50 rounded-xl gap-40">
+      <div className="lg:grid lg:grid-cols-2 text-center lg:text-left container mx-auto min-h-screen bg-gray-50 rounded-xl gap-40 my-7">
       <div className=" space-y-3 justify-center items-center p-15 py-30">
 
         <h2 className=" text-3xl font-bold text-pink-900 ">Find Your Next Read <br /> <span className="text-7xl font-medium">EverBooks</span> </h2>
